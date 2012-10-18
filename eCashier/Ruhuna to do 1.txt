@@ -1,0 +1,12 @@
+Phrarmacy
+
+AS A User
+Mnu > Back Offie > Item Reports > Item Details: Errors
+Mnu > Back Office > Item Reports > Stock Reports: Only From 1st Batch only
+				> Item Issue Units > Cancelled
+
+
+Cashier
+
+Manu > BHT > Bht SUmmery > Canceled MOre than Added
+Manu > GSB > Admit > GSB00000000000000 Patient

@@ -1,0 +1,9 @@
+Age analysis of Patietn Credit		-		Done
+Age Analysis of MT Bills		-		Done
+BHT patient Serices & Charges By DOD	-		DOne
+To Excel BHT Summery			-		Done
+
+
+
+Need to Zero the Outstanding when running
+Check Cancelled & Returns are reduced a\in HSS bill Settlings

@@ -1,0 +1,27 @@
+                .NetSale =
+                .InitialAmount =
+                .Incentive1 =
+                .I2ndFT =
+                .Incentive2 =
+                .I3rdFT =
+                .Incentive3 =
+                .I4thFT =
+                .Incentive4 =
+                .I5thFT =
+                .Incentive5 =
+                .I6thFT =
+                .Incentive6 =
+                .I7thFT =
+                .Incentive7 =
+                .I8thFT =
+                .Incentive8 =
+                .I9thFT =
+                .Incentive9 =
+                .OtherAmount =
+                .Incentive10 =
+                .TotalCashIncentive =
+                .ChequeIncentive =
+                .TotalIncentive =
+                .SelfHandlingAllowance =
+                .TotalIncentiveAndAllowance =
+

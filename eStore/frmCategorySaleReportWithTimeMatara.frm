@@ -1,0 +1,784 @@
+VERSION 5.00
+Object = "{F0D2F211-CCB0-11D0-A316-00AA00688B10}#1.0#0"; "MSDATLST.OCX"
+Object = "{575E4548-F564-4A9D-8667-6EE848F77EB8}#1.0#0"; "ButtonEx.ocx"
+Object = "{5E9E78A0-531B-11CF-91F6-C2863C385E30}#1.0#0"; "msflxgrd.ocx"
+Object = "{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}#2.0#0"; "mscomct2.ocx"
+Begin VB.Form frmCategorySaleReportWithTimeMatara 
+   BorderStyle     =   1  'Fixed Single
+   Caption         =   "Sale By Sale Catogery"
+   ClientHeight    =   7695
+   ClientLeft      =   45
+   ClientTop       =   435
+   ClientWidth     =   15015
+   BeginProperty Font 
+      Name            =   "Tahoma"
+      Size            =   9.75
+      Charset         =   0
+      Weight          =   700
+      Underline       =   0   'False
+      Italic          =   0   'False
+      Strikethrough   =   0   'False
+   EndProperty
+   LinkTopic       =   "Form1"
+   MaxButton       =   0   'False
+   MDIChild        =   -1  'True
+   MinButton       =   0   'False
+   ScaleHeight     =   7695
+   ScaleWidth      =   15015
+   Begin MSComCtl2.DTPicker dtpDayStart 
+      Height          =   375
+      Left            =   2760
+      TabIndex        =   24
+      Top             =   600
+      Width           =   2535
+      _ExtentX        =   4471
+      _ExtentY        =   661
+      _Version        =   393216
+      Format          =   67043330
+      CurrentDate     =   39617
+   End
+   Begin MSDataListLib.DataCombo dtcSaleCategory 
+      Height          =   360
+      Left            =   9480
+      TabIndex        =   23
+      Top             =   120
+      Width           =   3255
+      _ExtentX        =   5741
+      _ExtentY        =   635
+      _Version        =   393216
+      Text            =   ""
+   End
+   Begin btButtonEx.ButtonEx bttnClose 
+      Height          =   495
+      Left            =   13560
+      TabIndex        =   4
+      Top             =   7080
+      Width           =   1215
+      _ExtentX        =   2143
+      _ExtentY        =   873
+      Appearance      =   3
+      Caption         =   "C&lose"
+      BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+         Name            =   "Tahoma"
+         Size            =   9.75
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+   End
+   Begin btButtonEx.ButtonEx bttnPrint 
+      Height          =   495
+      Left            =   11400
+      TabIndex        =   3
+      Top             =   7080
+      Width           =   2055
+      _ExtentX        =   3625
+      _ExtentY        =   873
+      Appearance      =   3
+      Caption         =   "&Print Summery"
+      BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+         Name            =   "Tahoma"
+         Size            =   9.75
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+   End
+   Begin MSComCtl2.DTPicker dtpDate 
+      Height          =   375
+      Left            =   2760
+      TabIndex        =   0
+      Top             =   120
+      Width           =   2535
+      _ExtentX        =   4471
+      _ExtentY        =   661
+      _Version        =   393216
+      CustomFormat    =   "dd MMMM yyyy"
+      Format          =   67043331
+      CurrentDate     =   29224
+   End
+   Begin MSFlexGridLib.MSFlexGrid GridSales 
+      Height          =   3015
+      Left            =   120
+      TabIndex        =   2
+      Top             =   1440
+      Width           =   7335
+      _ExtentX        =   12938
+      _ExtentY        =   5318
+      _Version        =   393216
+   End
+   Begin MSFlexGridLib.MSFlexGrid GridReturn 
+      Height          =   3015
+      Left            =   7560
+      TabIndex        =   13
+      Top             =   1440
+      Width           =   7335
+      _ExtentX        =   12938
+      _ExtentY        =   5318
+      _Version        =   393216
+   End
+   Begin btButtonEx.ButtonEx bttnAllBills 
+      Height          =   495
+      Left            =   9360
+      TabIndex        =   26
+      Top             =   7080
+      Width           =   1935
+      _ExtentX        =   3413
+      _ExtentY        =   873
+      Appearance      =   3
+      Caption         =   "Print &All Bills"
+      BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+         Name            =   "Tahoma"
+         Size            =   9.75
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+   End
+   Begin VB.Label Label2 
+      Caption         =   "Day Start time"
+      Height          =   255
+      Left            =   120
+      TabIndex        =   25
+      Top             =   600
+      Width           =   2415
+   End
+   Begin VB.Label Label10 
+      Caption         =   "Sale Catogery"
+      Height          =   375
+      Left            =   7560
+      TabIndex        =   22
+      Top             =   120
+      Width           =   1815
+   End
+   Begin VB.Label lblProfit 
+      Alignment       =   1  'Right Justify
+      Caption         =   "0.00"
+      Height          =   375
+      Left            =   8760
+      TabIndex        =   21
+      Top             =   6360
+      Width           =   1815
+   End
+   Begin VB.Label Label13 
+      Caption         =   "Approximate Profit"
+      Height          =   255
+      Left            =   6120
+      TabIndex        =   20
+      Top             =   6360
+      Width           =   2415
+   End
+   Begin VB.Label lblNetCost 
+      Alignment       =   1  'Right Justify
+      Caption         =   "0.00"
+      Height          =   375
+      Left            =   8760
+      TabIndex        =   19
+      Top             =   5520
+      Width           =   1815
+   End
+   Begin VB.Label Label11 
+      Caption         =   "Net Cost"
+      Height          =   255
+      Left            =   6120
+      TabIndex        =   18
+      Top             =   5520
+      Width           =   2415
+   End
+   Begin VB.Line Line2 
+      X1              =   6120
+      X2              =   10680
+      Y1              =   5400
+      Y2              =   5400
+   End
+   Begin VB.Label lblTotalReturnCost 
+      Alignment       =   1  'Right Justify
+      Caption         =   "0.00"
+      Height          =   375
+      Left            =   8760
+      TabIndex        =   17
+      Top             =   5040
+      Width           =   1815
+   End
+   Begin VB.Label Label9 
+      Caption         =   "Total Cost Of Returns"
+      Height          =   255
+      Left            =   6120
+      TabIndex        =   16
+      Top             =   5040
+      Width           =   2415
+   End
+   Begin VB.Label Label7 
+      Caption         =   "Total Refunds"
+      Height          =   255
+      Left            =   7560
+      TabIndex        =   15
+      Top             =   1200
+      Width           =   2415
+   End
+   Begin VB.Label Label4 
+      Caption         =   "Total Collection"
+      Height          =   255
+      Left            =   120
+      TabIndex        =   14
+      Top             =   1200
+      Width           =   2415
+   End
+   Begin VB.Line Line1 
+      X1              =   120
+      X2              =   4680
+      Y1              =   5400
+      Y2              =   5400
+   End
+   Begin VB.Label Label8 
+      Caption         =   "Net Collection"
+      Height          =   255
+      Left            =   120
+      TabIndex        =   12
+      Top             =   5520
+      Width           =   2415
+   End
+   Begin VB.Label lblNetCash 
+      Alignment       =   1  'Right Justify
+      Caption         =   "0.00"
+      Height          =   375
+      Left            =   2760
+      TabIndex        =   11
+      Top             =   5520
+      Width           =   1815
+   End
+   Begin VB.Label Label6 
+      Caption         =   "Total Collection"
+      Height          =   255
+      Left            =   120
+      TabIndex        =   10
+      Top             =   4680
+      Width           =   2415
+   End
+   Begin VB.Label lblRefunds 
+      Alignment       =   1  'Right Justify
+      Caption         =   "0.00"
+      Height          =   375
+      Left            =   2760
+      TabIndex        =   9
+      Top             =   5040
+      Width           =   1815
+   End
+   Begin VB.Label Label5 
+      Caption         =   "Total Cost Of Sales"
+      Height          =   255
+      Left            =   6120
+      TabIndex        =   8
+      Top             =   4680
+      Width           =   2415
+   End
+   Begin VB.Label lblTotalCost 
+      Alignment       =   1  'Right Justify
+      Caption         =   "0.00"
+      Height          =   375
+      Left            =   8760
+      TabIndex        =   7
+      Top             =   4680
+      Width           =   1815
+   End
+   Begin VB.Label lblTotal 
+      Alignment       =   1  'Right Justify
+      Caption         =   "0.00"
+      Height          =   375
+      Left            =   2760
+      TabIndex        =   6
+      Top             =   4680
+      Width           =   1815
+   End
+   Begin VB.Label Label3 
+      Caption         =   "Total Refunds"
+      Height          =   255
+      Left            =   120
+      TabIndex        =   5
+      Top             =   5040
+      Width           =   2415
+   End
+   Begin VB.Label Label1 
+      Caption         =   "Date"
+      Height          =   255
+      Left            =   120
+      TabIndex        =   1
+      Top             =   120
+      Width           =   1095
+   End
+End
+Attribute VB_Name = "frmCategorySaleReportWithTimeMatara"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Explicit
+    Dim temSql As String
+    Dim rsSale As New ADODB.Recordset
+    Dim CSetPrinter As New cSetDfltPrinter
+    Dim rsReport As New ADODB.Recordset
+    Dim rsReport1 As New ADODB.Recordset
+    Dim rsSaleCategory As New ADODB.Recordset
+    Dim rsSaleBill As New ADODB.Recordset
+
+Private Sub bttnAllBills_Click()
+    If IsNumeric(dtcSaleCategory.BoundText) = False Then Exit Sub
+    Call SetBillPrinter1
+    Call SetBillPaper1
+End Sub
+
+Private Sub bttnClose_Click()
+    Unload Me
+End Sub
+
+Private Sub bttnPrint_Click()
+    Dim TemResponce As Long
+    Dim RetVal As Integer
+    
+    CSetPrinter.SetPrinterAsDefault (ReportPrinterName)
+    
+    RetVal = SelectForm(ReportPaperName, Me.hwnd)
+    Select Case RetVal
+        Case FORM_NOT_SELECTED   ' 0
+            TemResponce = MsgBox("You have not selected a printer form to print, Please goto Preferances and Printing preferances to set a valid printer form.", vbExclamation, "Bill Not Printed")
+        Case FORM_SELECTED   ' 1
+            Call SelectPrint
+        Case FORM_ADDED   ' 2
+            TemResponce = MsgBox("New paper size added.", vbExclamation, "New Paper size")
+    End Select
+End Sub
+
+Private Sub SelectPrint()
+    If Not IsNumeric(dtcSaleCategory.BoundText) Then Exit Sub
+    With rsReport
+        If .State = 1 Then .Close
+        temSql = "SELECT tblSaleBill.*, tblStaff.Name AS StaffUser, tblBHT.BHT, tblBHTPatient.FirstName AS BHTPatient, tblSaleBill.Date, tblStaffCustomer.Name AS StaffCustomer, tblOutPatient.FirstName AS OutPatient, tblSaleBill.Date AS BillDate " & _
+                    "FROM ((tblPatientMainDetails AS tblOutPatient RIGHT JOIN (((tblSaleBill LEFT JOIN tblStaff ON tblSaleBill.StaffID = tblStaff.StaffID) LEFT JOIN tblPaymentMethod ON tblSaleBill.PaymentMethodID = tblPaymentMethod.PaymentMethodID) LEFT JOIN (tblBHT LEFT JOIN tblPatientMainDetails AS tblBHTPatient ON tblBHT.PatientID = tblBHTPatient.PatientID) ON tblSaleBill.BilledBHTID = tblBHT.BHTID) ON tblOutPatient.PatientID = tblSaleBill.BilledOutPatientID) LEFT JOIN tblStaff AS tblStaffCustomer ON tblSaleBill.BilledStaffID = tblStaffCustomer.StaffID) LEFT JOIN tblSaleCategory ON tblSaleBill.SaleCategoryID = tblSaleCategory.SaleCategoryID " & _
+                    "WHERE (tblSaleBill.Date = '" & Format(dtpDate.Value, "dd MMMM yyyy") & "' And  tblSaleBill.Time > '" & dtpDayStart.Value & "' )  OR  (tblSaleBill.Date = '" & Format(dtpDate.Value + 1, "dd MMMM yyyy") & "' And  tblSaleBill.Time <= '" & dtpDayStart.Value & "' )   AND tblSaleBill.SaleCategoryID =" & Val(dtcSaleCategory.BoundText) & "    And ( tblSaleBill.Cancelled = False) And  ( tblSaleBill.Returned = False)  "
+          
+        .Open temSql, cnnStores, adOpenStatic, adLockReadOnly
+    End With
+    With dtrCashSaleMatara
+        Set .DataSource = rsReport
+        .Sections("Section4").Controls.Item("lblNaME").Caption = HospitalName
+        .Sections("Section4").Controls.Item("lblContact").Caption = HospitalAddress
+        .Sections("Section4").Controls.Item("lblTopic").Caption = "Total Cash Sale"
+        .Sections("Section4").Controls.Item("lblSubTopic").Caption = "On " & dtpDate.Value
+        
+'        .Sections("Section5").Controls.Item("lblTotalReturn").Caption = lblRefunds.Caption
+'        .Sections("Section5").Controls.Item("lblNetCollection").Caption = lblNetCash.Caption
+'        .Sections("Section5").Controls.Item("lblCostReturn").Caption = lblTotalReturnCost.Caption
+'        .Sections("Section5").Controls.Item("lblnetreturn").Caption = lblNetCost.Caption
+        .Sections("Section5").Controls.Item("lblProfit").Caption = lblProfit.Caption
+        
+        .Show
+    End With
+    With rsReport1
+        If .State = 1 Then .Close
+        temSql = "SELECT tblReturnBill.ReturnBillID, tblReturnBill.SaleBillID, tblReturnBill.NetCost, tblReturnBill.Date, tblReturnBill.Time, tblStaff.Name, tblReturnBill.NetPrice " & _
+                    "FROM tblSaleBill RIGHT JOIN ((tblReturnBill LEFT JOIN tblStaff ON tblReturnBill.StaffID = tblStaff.StaffID) LEFT JOIN tblPaymentMethod ON tblReturnBill.PaymentMethodID = tblPaymentMethod.PaymentMethodID) ON tblSaleBill.SaleBillID = tblReturnBill.SaleBillID " & _
+                    "WHERE (tblReturnBill.Date = '" & Format(dtpDate.Value, "dd MMMM yyyy") & "' And  tblreturnbill.time > '" & dtpDayStart.Value & "' )  OR  (tblReturnBill.Date = '" & Format(dtpDate.Value + 1, "dd MMMM yyyy") & "' And  tblReturnBill.Time <= '" & dtpDayStart.Value & "' )  AND tblSaleBill.SaleCategoryID =" & Val(dtcSaleCategory.BoundText) & " "
+        .Open temSql, cnnStores, adOpenStatic, adLockReadOnly
+    End With
+    With dtrCashReturn
+        Set .DataSource = rsReport1
+        .Sections("Section4").Controls.Item("lblNaME").Caption = HospitalName
+        .Sections("Section4").Controls.Item("lblContact").Caption = HospitalAddress
+        .Sections("Section4").Controls.Item("lblTopic").Caption = "Total Cash Return"
+        .Sections("Section4").Controls.Item("lblSubTopic").Caption = "On " & dtpDate.Value
+        .Show
+    End With
+    
+End Sub
+
+
+
+
+Private Sub dtcSaleCategory_Change()
+    If Not IsNumeric(dtcSaleCategory.BoundText) Then Exit Sub
+    Call FormatGrid
+    Call FillGrid
+End Sub
+
+Private Sub dtpFrom_Change()
+    Call FormatGrid
+    Call FillGrid
+End Sub
+
+Private Sub dtpTo_Change()
+    Call FormatGrid
+    Call FillGrid
+End Sub
+
+
+
+Private Sub dtpDate_Change()
+    If IsNumeric(dtcSaleCategory.BoundText) = False Then Exit Sub
+    Call FormatGrid
+    Call FillGrid
+End Sub
+
+Private Sub dtpDayStart_Change()
+    If IsNumeric(dtcSaleCategory.BoundText) = False Then Exit Sub
+    Call FormatGrid
+    Call FillGrid
+End Sub
+
+Private Sub Form_Load()
+    dtpDate.Value = Date
+    dtpDayStart.Value = GetSetting(App.EXEName, "Options", "DayStart", "00:00:00 PM")
+    Call FillCombos
+    Call FormatGrid
+End Sub
+
+Private Sub FillCombos()
+    With rsSaleCategory
+        If .State = 1 Then .Close
+        temSql = "SELECT * from tblSaleCategory order by SaleCategory"
+        .Open temSql, cnnStores, adOpenStatic, adLockReadOnly
+    End With
+    With dtcSaleCategory
+        Set .RowSource = rsSaleCategory
+        .ListField = "SaleCategory"
+        .BoundColumn = "SaleCategoryID"
+    End With
+End Sub
+
+Private Sub FormatGrid()
+    Call FormatSaleGrid
+    Call FormatReturnGrid
+End Sub
+
+Private Sub FormatSaleGrid()
+    With GridSales
+        .Clear
+        
+        .Rows = 1
+        .Cols = 5
+        
+        .Row = 0
+        
+        .Col = 0
+        .CellAlignment = 4
+        .Text = "Bill ID"
+        
+        .Col = 1
+        .CellAlignment = 4
+        .Text = "Date"
+        
+        .Col = 2
+        .CellAlignment = 4
+        .Text = "Time"
+        
+        .Col = 3
+        .CellAlignment = 4
+        .Text = "Staff"
+        
+        .Col = 4
+        .CellAlignment = 4
+        .Text = "Amount"
+        
+        
+    .ColWidth(0) = 600
+    .ColWidth(1) = 1400
+    .ColWidth(2) = 1400
+    .ColWidth(3) = 1800
+    .ColWidth(4) = 1400
+
+    
+    End With
+    
+    
+    lblTotal.Caption = "0.00"
+    lblTotalCost.Caption = "0.00"
+    
+End Sub
+
+Private Sub FormatReturnGrid()
+    With GridReturn
+        .Clear
+        
+        .Rows = 1
+        .Cols = 6
+        .FixedCols = 2
+        
+        .Row = 0
+        
+        .Col = 0
+        .CellAlignment = 4
+        .Text = "Bill ID"
+        
+        .Col = 1
+        .CellAlignment = 4
+        .Text = "Bill ID"
+        
+        .Col = 2
+        .CellAlignment = 4
+        .Text = "Date"
+        
+        .Col = 3
+        .CellAlignment = 4
+        .Text = "Time"
+        
+        .Col = 4
+        .CellAlignment = 4
+        .Text = "Staff"
+        
+        .Col = 5
+        .CellAlignment = 4
+        .Text = "Amount"
+        
+        
+    .ColWidth(0) = 600
+    .ColWidth(1) = 600
+    .ColWidth(2) = 1400
+    .ColWidth(3) = 1400
+    .ColWidth(4) = 1800
+    .ColWidth(5) = 1400
+
+    
+    End With
+    
+    
+    lblRefunds.Caption = "0.00"
+    
+End Sub
+
+
+Private Sub FillSaleGrid()
+    With rsSale
+        If .State = 1 Then .Close
+        temSql = "SELECT tblSaleBill.SaleBillID, tblSaleBill.NetCost, tblSaleBill.Date, tblSaleBill.Time, tblStaff.Name, tblSaleBill.NetPrice " & _
+                    "FROM (tblSaleBill LEFT JOIN tblStaff ON tblSaleBill.StaffID = tblStaff.StaffID) LEFT JOIN tblPaymentMethod ON tblSaleBill.PaymentMethodID = tblPaymentMethod.PaymentMethodID " & _
+                    "WHERE (tblSaleBill.Date = '" & Format(dtpDate.Value, "dd MMMM yyyy") & "' And  tblSaleBill.Time > '" & dtpDayStart.Value & "' )  OR  (tblSaleBill.Date = '" & Format(dtpDate.Value + 1, "dd MMMM yyyy") & "' And  tblSaleBill.Time <= '" & dtpDayStart.Value & "' )   AND tblSaleBill.SaleCategoryID =" & Val(dtcSaleCategory.BoundText) & " "
+        .Open temSql, cnnStores, adOpenStatic, adLockReadOnly
+        If .RecordCount > 0 Then
+            .MoveLast
+            GridSales.Rows = .RecordCount + 1
+            .MoveFirst
+            Dim i As Integer
+            Dim TCash As Double
+            Dim TCost As Double
+            While .EOF = False
+                i = i + 1
+                GridSales.TextMatrix(i, 0) = !SaleBillID
+                GridSales.TextMatrix(i, 1) = !Date
+                GridSales.TextMatrix(i, 2) = !Time
+                GridSales.TextMatrix(i, 3) = !Name
+                GridSales.TextMatrix(i, 4) = Format(!NetPrice, "0.00")
+                
+                TCash = TCash + !NetPrice
+                If Not IsNull(!NetCost) Then
+                    TCost = TCost + !NetCost
+                End If
+                .MoveNext
+            Wend
+        End If
+    End With
+    lblTotal.Caption = Format(TCash, "0.00")
+    lblTotalCost.Caption = Format(TCost, "0.00")
+End Sub
+
+Private Sub FillGrid()
+    Call FillSaleGrid
+    Call FillReturnGrid
+    lblNetCash.Caption = Format(Val(lblTotal.Caption) - Val(lblRefunds.Caption), "0.00")
+    lblNetCost.Caption = Format((Val(lblTotalCost.Caption) - Val(lblTotalReturnCost.Caption)), "0.00")
+    lblProfit.Caption = Format((Val(lblNetCash.Caption) - Val(lblNetCost.Caption)), "0.00")
+End Sub
+
+Private Sub FillReturnGrid()
+    With rsSale
+        If .State = 1 Then .Close
+        temSql = "SELECT tblReturnBill.ReturnBillID, tblReturnBill.SaleBillID, tblReturnBill.NetCost, tblReturnBill.Date, tblReturnBill.Time, tblStaff.Name, tblReturnBill.NetPrice " & _
+                    "FROM tblSaleBill RIGHT JOIN ((tblReturnBill LEFT JOIN tblStaff ON tblReturnBill.StaffID = tblStaff.StaffID) LEFT JOIN tblPaymentMethod ON tblReturnBill.PaymentMethodID = tblPaymentMethod.PaymentMethodID) ON tblSaleBill.SaleBillID = tblReturnBill.SaleBillID " & _
+                    "WHERE (tblReturnBill.Date = '" & Format(dtpDate.Value, "dd MMMM yyyy") & "' And  tblreturnbill.time > '" & dtpDayStart.Value & "' )  OR  (tblReturnBill.Date = '" & Format(dtpDate.Value + 1, "dd MMMM yyyy") & "' And  tblReturnBill.Time <= '" & dtpDayStart.Value & "' )  AND tblSaleBill.SaleCategoryID =" & Val(dtcSaleCategory.BoundText) & " "
+        .Open temSql, cnnStores, adOpenStatic, adLockReadOnly
+        If .RecordCount > 0 Then
+            .MoveLast
+            GridReturn.Rows = .RecordCount + 1
+            .MoveFirst
+            Dim i As Integer
+            Dim TCash As Double
+            Dim TCost As Double
+            While .EOF = False
+                i = i + 1
+                GridReturn.TextMatrix(i, 0) = ![SaleBillID]
+                GridReturn.TextMatrix(i, 1) = ![ReturnBillID]
+                GridReturn.TextMatrix(i, 2) = Format(![Date], ShortDateFormat)
+                GridReturn.TextMatrix(i, 3) = ![Time]
+                GridReturn.TextMatrix(i, 4) = !Name
+                GridReturn.TextMatrix(i, 5) = Format(!NetPrice, "0.00")
+                TCash = TCash + !NetPrice
+                If Not IsNull(!NetCost) Then
+                    TCost = TCost + !NetCost
+                End If
+                .MoveNext
+            Wend
+        End If
+    End With
+    lblRefunds.Caption = Format(TCash, "0.00")
+    lblTotalReturnCost.Caption = Format(TCost, "0.00")
+End Sub
+
+Private Sub Form_Unload(Cancel As Integer)
+    SaveSetting App.EXEName, "Options", "DayStart", dtpDayStart.Value
+End Sub
+
+Private Sub MataraPrint()
+    Dim i As Integer
+    Dim Tab1 As Integer
+    Dim Tab2 As Integer
+    Dim Tab3 As Integer
+    Dim Tab4 As Integer
+    Tab1 = 0
+    Tab2 = 5
+    Tab3 = 28
+    Tab4 = 20
+    
+    
+        With rsSaleBill
+            If .State = 1 Then .Close
+            temSql = "SELECT tblSaleBill.*, tblStaff.Name AS StaffUser, tblBHT.BHT, tblBHTPatient.FirstName AS BHTPatient, tblSaleBill.Date, tblStaffCustomer.Name AS StaffCustomer, tblOutPatient.FirstName AS OutPatient, tblSaleBill.Date AS BillDate " & _
+                        "FROM ((tblPatientMainDetails AS tblOutPatient RIGHT JOIN (((tblSaleBill LEFT JOIN tblStaff ON tblSaleBill.StaffID = tblStaff.StaffID) LEFT JOIN tblPaymentMethod ON tblSaleBill.PaymentMethodID = tblPaymentMethod.PaymentMethodID) LEFT JOIN (tblBHT LEFT JOIN tblPatientMainDetails AS tblBHTPatient ON tblBHT.PatientID = tblBHTPatient.PatientID) ON tblSaleBill.BilledBHTID = tblBHT.BHTID) ON tblOutPatient.PatientID = tblSaleBill.BilledOutPatientID) LEFT JOIN tblStaff AS tblStaffCustomer ON tblSaleBill.BilledStaffID = tblStaffCustomer.StaffID) LEFT JOIN tblSaleCategory ON tblSaleBill.SaleCategoryID = tblSaleCategory.SaleCategoryID " & _
+                        "WHERE (tblSaleBill.Date = '" & Format(dtpDate.Value, "dd MMMM yyyy") & "' And  tblSaleBill.Time > '" & dtpDayStart.Value & "' )  OR  (tblSaleBill.Date = '" & Format(dtpDate.Value + 1, "dd MMMM yyyy") & "' And  tblSaleBill.Time <= '" & dtpDayStart.Value & "' )   AND tblSaleBill.SaleCategoryID =" & Val(dtcSaleCategory.BoundText) & " "
+            .Open temSql, cnnStores, adOpenStatic, adLockReadOnly
+            If .RecordCount > 0 Then
+                While .EOF = False
+                    Printer.FontSize = 12
+                    Printer.Print
+                    Printer.Print Tab(Tab1); "MATARA NURSING HOME (PVT) LTD"
+                    Printer.FontSize = 10
+                    Printer.Print
+                    Printer.Print Tab(Tab1); "Anagarika Dharmapala Mawath, Matara"
+                    Printer.Print Tab(Tab1); "041-2222177, 041-5676265"
+                    Printer.Print
+                    Printer.Print Tab(Tab1); "Date : "; Format(![tblSaleBill.Date], "dd MM yy")
+                    Printer.Print Tab(Tab1); "Time : "; !Time; Tab(Tab1 + 25); "Bill No." & !SaleBillID
+                    Dim TemTemSaleBillID As Long
+                    TemTemSaleBillID = !SaleBillID
+                    Printer.Print Tab(Tab1); "--------------------------------------"
+                    If IsNull(!OutPatient) = False Then
+                        Printer.Print Tab(Tab1); "Patient : "; !OutPatient
+                    ElseIf IsNull(!BHTPatient) = False Then
+                        Printer.Print Tab(Tab1); "Indoor Patient : "; !BHTPatient
+                    ElseIf IsNull(!StaffCustomer) = False Then
+                        Printer.Print Tab(Tab1); "Staff member : "; !StaffCustomer
+                    End If
+                    Printer.Print Tab(Tab1); "--------------------------------------"
+                    Printer.Print
+                    Printer.FontSize = 10
+                    If Abs(!TotalMedicineIncome - !Price) > 2 Then
+                        With rsSale
+                            If .State = 1 Then .Close
+                            temSql = "SELECT tblSale.Amount, tblItem.Display, tblSale.GrossPrice FROM tblItem RIGHT JOIN tblSale ON tblItem.ItemID = tblSale.ItemID WHERE (((tblSale.SaleBillID)=" & TemTemSaleBillID & "))"
+                            .Open temSql, cnnStores, adOpenStatic, adLockReadOnly
+                            If .RecordCount > 0 Then
+                                While .EOF = False
+                                    Printer.Print Tab(Tab1); !Amount; Tab(Tab2); Left(!Display, 24); Tab(Tab3); Right((Space(10)) & Format(!GrossPrice, "0.00"), 10)
+                                    .MoveNext
+                                Wend
+                            End If
+                            .Close
+                        End With
+                    Else
+                        Dim TemSerial As Long
+                        TemSerial = 1
+                        Printer.Print Tab(Tab1); TemSerial; Tab(Tab2); Left("Medicines", 24); Tab(Tab3); Right((Space(10)) & Format(!TotalMedicineIncome, "0.00"), 10)
+                        With rsSale
+                            If .State = 1 Then .Close
+                            temSql = "SELECT tblIncomeCategory.IncomeCategory, tblIncome.Price FROM tblIncome LEFT JOIN tblIncomeCategory ON tblIncome.IncomeCategoryID = tblIncomeCategory.IncomeCategoryID WHERE (((tblIncome.SaleBillID)=" & TemTemSaleBillID & "))"
+                            .Open temSql, cnnStores, adOpenStatic, adLockReadOnly
+                            If .RecordCount > 0 Then
+                                While .EOF = False
+                                    TemSerial = TemSerial + 1
+                                    Printer.Print Tab(Tab1); TemSerial; Tab(Tab2); Left(!IncomeCategory, 24); Tab(Tab3); Right((Space(10)) & Format(!Price, "0.00"), 10)
+                                    .MoveNext
+                                Wend
+                            End If
+                            .Close
+                        End With
+                    End If
+                    Printer.Font = 12
+                    Printer.Print
+                    Printer.Print
+                    Printer.Print Tab(Tab1); "--------------------------------------"
+                    Printer.Print
+                    Printer.Print Tab(Tab1); "Gross Total"; Tab(Tab4); Right((Space(10)) & (!Price), 10)
+                    If !Discount > 0 Then
+                        Printer.Print Tab(Tab1); "Discount"; Tab(Tab4); Right((Space(10)) & (!Discount), 10)
+                        Printer.Print Tab(Tab1); "Net Total"; Tab(Tab4); Right((Space(10)) & (!NetPrice), 10)
+                    End If
+                    Printer.Print Tab(Tab1); "--------------------------------------"
+                    Printer.Print
+                    Printer.Print Tab(Tab1); "THANK YOU"
+                    Printer.Print
+                    Printer.Print Tab(Tab1); "--------------------------------------"
+                    Printer.Print
+                    Printer.Print
+                    Printer.Print
+                    Printer.Print
+                    Printer.Print
+                    Printer.Print
+                    .MoveNext
+                Wend
+            End If
+            Printer.EndDoc
+        End With
+    '   0   No
+    '   1   Item
+    '   2   Batch
+    '   3   Rate
+    '   4   Amount
+    '   5   Price
+    '   6   ItemID
+    '   7   BatchID
+    '   8   AMount
+    '   9   Rate
+    
+End Sub
+
+
+Private Sub SetBillPrinter1()
+    CSetPrinter.SetPrinterAsDefault (BillPrinterName)
+End Sub
+
+Private Sub SetBillPaper1()
+    Dim TemResponce As Long
+    Dim RetVal As Integer
+    RetVal = SelectForm(BillPaperName, Me.hwnd)
+    Select Case RetVal
+        Case FORM_NOT_SELECTED   ' 0
+            TemResponce = MsgBox("You have not selected a printer form to print, Please goto Preferances and Printing preferances to set a valid printer form.", vbExclamation, "Bill Not Printed")
+        Case FORM_SELECTED   ' 1
+            Call SelectPrint1
+        Case FORM_ADDED   ' 2
+            TemResponce = MsgBox("New paper size added.", vbExclamation, "New Paper size")
+    End Select
+End Sub
+
+Private Sub SelectPrint1()
+    If LCase(Left(Trim(HospitalName), 1)) = "m" Then
+        MataraPrint
+    ElseIf LCase(Left(Trim(HospitalName), 1)) = "r" Then
+        RuhunaPrint
+    ElseIf LCase(Left(Trim(HospitalName), 1)) = "c" Then
+        CooperativePrint
+    Else
+    
+    End If
+End Sub
+
+Private Sub RuhunaPrint()
+
+End Sub
+
+Private Sub CooperativePrint()
+
+End Sub

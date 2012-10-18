@@ -1,0 +1,9 @@
+Press F1 to get contact details of Lakmedipro (Pvt) Ltd.
+Press F2 to add a new booking.
+Press F3 for cancellation of a channeling.
+Press F4 for refunds.
+Before paying doctor, view the payments due, to find out any differences.
+Lakmedipro (Pvt) Ltd. Contact 24 hour hot line 077 3177874, 041 2292022
+Users are only allowed to view their shift end summery. Only the accountant and the owner are allowed to view others’ shift end summery.
+You can either view or print the shift end summery under the USER menu.
+You can view or print the day end summery under the USER menu.

@@ -1,0 +1,7 @@
+Import table
+	tblIssuedCreditCard
+
+Rename correctly 
+	tblConsumeptionCategory & Fields
+	tblDiscardCategory
+	tblExpenceCategory

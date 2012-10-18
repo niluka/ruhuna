@@ -1,0 +1,9 @@
+Database Changes
+
+New FIelds to tblServiceCategory and tblServiceSubcategory
+
+New Fields to tblIncomeBill, tblProfessionalPaymentBill
+	IsHSSPaymentBill
+	IsMTBill
+	IsHSTBill
+	PaidHSSID

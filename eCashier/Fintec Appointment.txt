@@ -1,0 +1,8 @@
+09 - Afternoon
+10 - Morning
+11 - Afternoon
+13 - Full day
+14 - Full day
+15 - Full Day
+16 - Morning
+17 - Afternoon

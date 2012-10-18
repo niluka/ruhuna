@@ -1,0 +1,2144 @@
+[Root]
+Most Recent Package=Standard Setup Package 1111
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\eHospitalSetup
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\system32\ButtonEx.ocx=
+C:\Program Files\Common Files\Microsoft Shared\Speech\sapi.dll=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\mscomct2.ocx=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+D:\eHospital\Hospital.mdb=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\eHospital\eReception.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\Speech\sapi.dll=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\PICCLP32.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\ButtonEx.ocx=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\eHospital\Hospital.mdb=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\eHospital\eReception.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\Microsoft Shared\Speech\sapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\ButtonEx.ocx=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\eHospital\Hospital.mdb=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\eHospital\eReception.exe=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\eHospital\Hospital.mdb=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=eChanneling
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=eChanneling
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|eChanneling]
+Icon1=eReception.exe
+Title1=eChanneling
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\eHospitalSetup
+ProjectFolder=D:\eHospital
+ServerSideCab=
+File1=D:\eHospitalSetup\setup.exe
+File2=D:\eHospitalSetup\Setup.Lst
+File3=D:\eHospitalSetup\eReception.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=e:\setup
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+C:\WINDOWS\system32\ButtonEx.ocx=
+C:\Program Files\Common Files\Microsoft Shared\Speech\sapi.dll=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\mscomct2.ocx=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|Standard Setup Package 2|Files Added]
+D:\eHospital\Hospital.mdb=
+
+[Package|Standard Setup Package 2|Files Removed]
+
+[Package|Standard Setup Package 2|Files In Project]
+D:\eHospital\eReception.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\Speech\sapi.dll=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\PICCLP32.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\ButtonEx.ocx=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\eHospital\Hospital.mdb=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+D:\eHospital\eReception.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\Microsoft Shared\Speech\sapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\ButtonEx.ocx=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\eHospital\Hospital.mdb=$(AppPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+D:\eHospital\eReception.exe=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\eHospital\Hospital.mdb=No
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=
+Title=Lakmedipro eHospital Assistant
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=Lakmedipro eHospital Assistant
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|Lakmedipro eHospital Assistant]
+Icon1=eReception.exe
+Title1=Lakmedipro eHospital Assistant
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=e:\setup
+ProjectFolder=D:\eHospital
+ServerSideCab=
+File1=e:\setup\setup.exe
+File2=e:\setup\Setup.Lst
+File3=e:\setup\eReception.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 3|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\setupNew
+
+[Package|Standard Setup Package 3|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 3|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 3|Files Found]
+Graph01.xls=C:\eHospital\Graph01.xls
+
+[Package|Standard Setup Package 3|Files Released]
+hospital.mdb=
+
+[Package|Standard Setup Package 3|Missing Dependency Information]
+C:\WINDOWS\system32\ButtonEx.ocx=
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=
+C:\Program Files\Common Files\Microsoft Shared\Speech\sapi.dll=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=
+C:\WINDOWS\system32\sapi.dll=
+
+[Package|Standard Setup Package 3|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\mscomct2.ocx=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\msflxgrd.ocx=
+C:\WINDOWS\system32\scrrun.dll=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+
+[Package|Standard Setup Package 3|Files Added]
+graph01.xls=
+C:\eHospital\Hospital.mdb=
+
+[Package|Standard Setup Package 3|Files Removed]
+
+[Package|Standard Setup Package 3|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\PICCLP32.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\ButtonEx.ocx=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\sapi.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\eHospital\eReception.exe=Yes
+C:\eHospital\Hospital.mdb=Yes
+C:\eHospital\Graph01.xls=Yes
+
+[Package|Standard Setup Package 3|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 3|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 3|Install Locations]
+D:\eHospital\eReception.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\Microsoft Shared\Speech\sapi.dll=$(WinSysPath)
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=$(AppPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\ButtonEx.ocx=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\eHospital\Hospital.mdb=$(AppPath)
+D:\eHospital\Graph01.xls=$(AppPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\sapi.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\eHospital\eReception.exe=$(AppPath)
+C:\eHospital\Hospital.mdb=$(AppPath)
+C:\eHospital\Graph01.xls=$(AppPath)
+
+[Package|Standard Setup Package 3|Configure Shared Files]
+Applicable=Yes
+D:\eHospital\eReception.exe=No
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\eHospital\Hospital.mdb=No
+D:\eHospital\Graph01.xls=No
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\eHospital\eReception.exe=No
+C:\eHospital\Hospital.mdb=No
+C:\eHospital\Graph01.xls=No
+
+[Package|Standard Setup Package 3|Distribution]
+Type=single
+Size=
+Title=Lakmedipro eChannelong
+
+[Package|Standard Setup Package 3|Lakmedipro eChannelong ]
+Icon1=eReception.exe
+Title1=Lakmedipro eChannelong
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 3|IconGroups]
+Group0=Lakmedipro eChannelong
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 3|Lakmedipro eChannelong]
+Icon1=eReception.exe
+Title1=eReception
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 3|Package]
+PackageFolder=C:\setupNew
+ProjectFolder=C:\eHospital
+ServerSideCab=
+File1=C:\setupNew\setup.exe
+File2=C:\setupNew\Setup.Lst
+File3=C:\setupNew\eReception.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 4|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=d:\setup\
+
+[Package|Standard Setup Package 4|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 4|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 4|Files Found]
+Graph01.xls=\\Lakmediprolap01\d\Coperative Hospital\eHospital\Graph01.xls
+Hospital.mdb=D:\Coperative Hospital\eHospital\Hospital.mdb
+
+[Package|Standard Setup Package 4|Files Released]
+
+[Package|Standard Setup Package 4|Missing Dependency Information]
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=
+C:\Program Files\Common Files\Microsoft Shared\Speech\sapi.dll=
+C:\WINDOWS\system32\ButtonEx.ocx=
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\WINDOWS\system32\sapi.dll=
+
+[Package|Standard Setup Package 4|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\mscomct2.ocx=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\scrrun.dll=
+C:\WINDOWS\system32\tabctl32.ocx=
+C:\WINDOWS\system32\msflxgrd.ocx=
+C:\WINDOWS\system32\RICHTX32.OCX=
+
+[Package|Standard Setup Package 4|Files Added]
+hospital.mdb=
+graph01.xls=
+
+[Package|Standard Setup Package 4|Files Removed]
+
+[Package|Standard Setup Package 4|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\PICCLP32.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\ButtonEx.ocx=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+\\Lakmediprolap01\d\Coperative Hospital\eHospital\Graph01.xls=Yes
+D:\Coperative Hospital\eHospital\eReception.exe=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\sapi.dll=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Coperative Hospital\eHospital\Hospital.mdb=Yes
+
+[Package|Standard Setup Package 4|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 4|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 4|Install Locations]
+E:\Coperative Hospital\eHospital\eReception.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\Microsoft Shared\Speech\sapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=$(AppPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\ButtonEx.ocx=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\Coperative Hospital\eHospital\Hospital.mdb=$(AppPath)
+E:\Coperative Hospital\eHospital\Graph01.xls=$(AppPath)
+\\Lakmediprolap01\d\Coperative Hospital\eHospital\eReception.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+\\Lakmediprolap01\d\Coperative Hospital\eHospital\Hospital.mdb=$(AppPath)
+\\Lakmediprolap01\d\Coperative Hospital\eHospital\Graph01.xls=$(AppPath)
+D:\Coperative Hospital\eHospital\eReception.exe=$(AppPath)
+C:\WINDOWS\system32\sapi.dll=$(WinSysPath)
+D:\Coperative Hospital\eHospital\Hospital.mdb=$(AppPath)
+
+[Package|Standard Setup Package 4|Configure Shared Files]
+Applicable=Yes
+E:\Coperative Hospital\eHospital\eReception.exe=No
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+E:\Coperative Hospital\eHospital\Hospital.mdb=No
+E:\Coperative Hospital\eHospital\Graph01.xls=No
+\\Lakmediprolap01\d\Coperative Hospital\eHospital\eReception.exe=No
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+\\Lakmediprolap01\d\Coperative Hospital\eHospital\Hospital.mdb=No
+\\Lakmediprolap01\d\Coperative Hospital\eHospital\Graph01.xls=No
+D:\Coperative Hospital\eHospital\eReception.exe=No
+D:\Coperative Hospital\eHospital\Hospital.mdb=No
+
+[Package|Standard Setup Package 4|Distribution]
+Type=multi
+Size=1.44 MB
+Title=eChanneling
+
+[Package|Standard Setup Package 4|Package]
+PackageFolder=E:\Coperative Hospital\eHospital\Package
+ProjectFolder=E:\Coperative Hospital\eHospital
+ServerSideCab=
+File1=E:\Coperative Hospital\eHospital\Package\setup.exe
+File2=E:\Coperative Hospital\eHospital\Package\Setup.Lst
+File3=E:\Coperative Hospital\eHospital\Package\eReception.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 4|IconGroups]
+Group0=eChanneling
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 4|eChanneling]
+Icon1=eReception.exe
+Title1=eChanneling
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Standard Setup Package|eReception]
+Icon1=eReception.exe
+Title1=eReception
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package|Lakmedipro]
+Icon1=eReception.exe
+Title1=eChannelling
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Standard Setup Package1|eReception]
+Icon1=eReception.exe
+Title1=eReception
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\NewSetup
+
+[Package|Standard Setup Package1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package1|Files Found]
+Hospital.mdb=\\Lakmediprolap01\d\Coperative Hospital\eHospital\Hospital.mdb
+
+[Package|Standard Setup Package1|Files Released]
+New HTML Help.CHI=
+help.CHI=
+
+[Package|Standard Setup Package1|Missing Dependency Information]
+C:\WINDOWS\system32\ButtonEx.ocx=
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=
+C:\Program Files\Common Files\Microsoft Shared\Speech\sapi.dll=
+
+[Package|Standard Setup Package1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\mscomct2.ocx=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\scrrun.dll=
+C:\WINDOWS\system32\msflxgrd.ocx=
+
+[Package|Standard Setup Package1|Files Added]
+hospital.mdb=
+\\lakmediprolap01\d\coperative hospital\ehospital\tipofday.txt=
+\\lakmediprolap01\d\coperative hospital\ehospital\help.chm=
+
+[Package|Standard Setup Package1|Files Removed]
+
+[Package|Standard Setup Package1|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\PICCLP32.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\ButtonEx.ocx=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\hhctrl.ocx=Yes
+C:\WINDOWS\system32\itss.dll=Yes
+C:\WINDOWS\system32\itircl.dll=Yes
+C:\WINDOWS\hh.exe=Yes
+\\Lakmediprolap01\d\Coperative Hospital\eHospital\Hospital.mdb=Yes
+\\Lakmediprolap01\d\Coperative Hospital\eHospital\TipOfDay.txt=Yes
+\\Lakmediprolap01\d\Coperative Hospital\eHospital\help.chm=Yes
+D:\Coperative Hospital\eHospital\eReception.exe=Yes
+C:\WINDOWS\system32\sapi.dll=Yes
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=Yes
+D:\Coperative Hospital\eHospital\New HTML Help.chm=Yes
+
+[Package|Standard Setup Package1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package1|Install Locations]
+D:\tem\eReception.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\sapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=$(AppPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\ButtonEx.ocx=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Coperative Hospital\eHospital\Hospital.mdb=$(AppPath)
+\\Lakmediprolap01\d\Coperative Hospital\eHospital\eReception.exe=$(AppPath)
+C:\WINDOWS\system32\hhctrl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\itss.dll=$(WinSysPath)
+C:\WINDOWS\system32\itircl.dll=$(WinSysPath)
+C:\WINDOWS\hh.exe=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\Speech\sapi.dll=$(WinSysPath)
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=$(AppPath)
+D:\Help\New HTML Help.chm=$(AppPath)
+\\Lakmediprolap01\d\Coperative Hospital\eHospital\Hospital.mdb=$(AppPath)
+D:\Coperative Hospital\eHospital\eReception.exe=$(AppPath)
+D:\Coperative Hospital\eHospital\New HTML Help.chm=$(AppPath)
+\\Lakmediprolap01\d\Coperative Hospital\eHospital\TipOfDay.txt=$(AppPath)
+\\Lakmediprolap01\d\Coperative Hospital\eHospital\help.chm=$(AppPath)
+
+[Package|Standard Setup Package1|Configure Shared Files]
+Applicable=Yes
+D:\tem\eReception.exe=No
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Coperative Hospital\eHospital\Hospital.mdb=No
+\\Lakmediprolap01\d\Coperative Hospital\eHospital\eReception.exe=No
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=No
+D:\Help\New HTML Help.chm=No
+\\Lakmediprolap01\d\Coperative Hospital\eHospital\Hospital.mdb=No
+D:\Coperative Hospital\eHospital\eReception.exe=No
+D:\Coperative Hospital\eHospital\New HTML Help.chm=No
+\\Lakmediprolap01\d\Coperative Hospital\eHospital\TipOfDay.txt=No
+\\Lakmediprolap01\d\Coperative Hospital\eHospital\help.chm=No
+
+[Package|Standard Setup Package1|Distribution]
+Type=single
+Size=
+Title=eChannelling
+
+[Package|Standard Setup Package1|IconGroups]
+Group0=Lakmedipro
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package1|Lakmedipro]
+Icon1=eReception.exe
+Title1=eChannelling
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package1|Package]
+PackageFolder=D:\NewSetup
+ProjectFolder=D:\Coperative Hospital\eHospital
+ServerSideCab=
+File1=D:\NewSetup\setup.exe
+File2=D:\NewSetup\Setup.Lst
+File3=D:\NewSetup\eReception.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 5|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\CoperativeSetup
+
+[Package|Standard Setup Package 5|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 5|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 5|Files Found]
+
+[Package|Standard Setup Package 5|Files Released]
+New HTML Help.CHI=
+help.CHI=
+
+[Package|Standard Setup Package 5|Missing Dependency Information]
+C:\WINDOWS\system32\ButtonEx.ocx=
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=
+C:\Program Files\Common Files\Microsoft Shared\Speech\sapi.dll=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+
+[Package|Standard Setup Package 5|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\msflxgrd.ocx=
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\mscomct2.ocx=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|Standard Setup Package 5|Files Added]
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\Hospital.mdb=
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\TipOfDay.txt=
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\help.chm=
+
+[Package|Standard Setup Package 5|Files Removed]
+
+[Package|Standard Setup Package 5|Files In Project]
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\eReception.exe=Yes
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\hhctrl.ocx=Yes
+C:\WINDOWS\system32\itss.dll=Yes
+C:\WINDOWS\system32\itircl.dll=Yes
+C:\WINDOWS\hh.exe=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\Speech\sapi.dll=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\PICCLP32.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\msflxgrd.ocx=Yes
+C:\WINDOWS\system32\ButtonEx.ocx=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+D:\Help\New HTML Help.chm=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\Hospital.mdb=Yes
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\TipOfDay.txt=Yes
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\help.chm=Yes
+
+[Package|Standard Setup Package 5|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 5|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 5|Install Locations]
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\eReception.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\hhctrl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\itss.dll=$(WinSysPath)
+C:\WINDOWS\system32\itircl.dll=$(WinSysPath)
+C:\WINDOWS\hh.exe=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\Microsoft Shared\Speech\sapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=$(AppPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\ButtonEx.ocx=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+D:\Help\New HTML Help.chm=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\Hospital.mdb=$(AppPath)
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\TipOfDay.txt=$(AppPath)
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\help.chm=$(AppPath)
+
+[Package|Standard Setup Package 5|Configure Shared Files]
+Applicable=Yes
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\eReception.exe=No
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=No
+D:\Help\New HTML Help.chm=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\Hospital.mdb=No
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\TipOfDay.txt=No
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\help.chm=No
+
+[Package|Standard Setup Package 5|Distribution]
+Type=single
+Size=
+Title=eChanneling
+
+[Package|Standard Setup Package 5|IconGroups]
+Group0=eChanneling
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 5|eChanneling]
+Icon1=eReception.exe
+Title1=eChanneling
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 5|Package]
+PackageFolder=E:\CoperativeSetup
+ProjectFolder=E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital
+ServerSideCab=
+File1=E:\CoperativeSetup\setup.exe
+File2=E:\CoperativeSetup\Setup.Lst
+File3=E:\CoperativeSetup\eReception.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 6|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\SetupCo-OpNew
+
+[Package|Standard Setup Package 6|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 6|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 6|Files Found]
+
+[Package|Standard Setup Package 6|Files Released]
+New HTML Help.CHI=
+help.CHI=
+
+[Package|Standard Setup Package 6|Missing Dependency Information]
+C:\WINDOWS\system32\ButtonEx.ocx=
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=
+C:\Program Files\Common Files\Microsoft Shared\Speech\sapi.dll=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+
+[Package|Standard Setup Package 6|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\msflxgrd.ocx=
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\mscomct2.ocx=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|Standard Setup Package 6|Files Added]
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\Cancellations.htm=
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\help.chm=
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\Hospital.mdb=
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\New Booking.htm=
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\Refunds.htm=
+
+[Package|Standard Setup Package 6|Files Removed]
+
+[Package|Standard Setup Package 6|Files In Project]
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\eReception.exe=Yes
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\hhctrl.ocx=Yes
+C:\WINDOWS\system32\itss.dll=Yes
+C:\WINDOWS\system32\itircl.dll=Yes
+C:\WINDOWS\hh.exe=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\Speech\sapi.dll=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\PICCLP32.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\msflxgrd.ocx=Yes
+C:\WINDOWS\system32\ButtonEx.ocx=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+D:\Help\New HTML Help.chm=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\Cancellations.htm=Yes
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\help.chm=Yes
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\Hospital.mdb=Yes
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\New Booking.htm=Yes
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\Refunds.htm=Yes
+
+[Package|Standard Setup Package 6|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 6|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 6|Install Locations]
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\eReception.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\hhctrl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\itss.dll=$(WinSysPath)
+C:\WINDOWS\system32\itircl.dll=$(WinSysPath)
+C:\WINDOWS\hh.exe=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\Microsoft Shared\Speech\sapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=$(AppPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\ButtonEx.ocx=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+D:\Help\New HTML Help.chm=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\Cancellations.htm=$(AppPath)
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\help.chm=$(AppPath)
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\Hospital.mdb=$(AppPath)
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\New Booking.htm=$(AppPath)
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\Refunds.htm=$(AppPath)
+
+[Package|Standard Setup Package 6|Configure Shared Files]
+Applicable=Yes
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\eReception.exe=No
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=No
+D:\Help\New HTML Help.chm=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\Cancellations.htm=No
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\help.chm=No
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\Hospital.mdb=No
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\New Booking.htm=No
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\Refunds.htm=No
+
+[Package|Standard Setup Package 6|Distribution]
+Type=single
+Size=
+Title=eChanneling
+
+[Package|Standard Setup Package 6|IconGroups]
+Group0=eChanneling
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 6|eChanneling]
+Icon1=eReception.exe
+Title1=eChanneling
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 6|Package]
+PackageFolder=E:\SetupCo-OpNew
+ProjectFolder=E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital
+ServerSideCab=
+File1=E:\SetupCo-OpNew\setup.exe
+File2=E:\SetupCo-OpNew\Setup.Lst
+File3=E:\SetupCo-OpNew\eReception.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\ehospitalSetup10PM
+
+[Package|Standard Setup Package|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package|Files Found]
+
+[Package|Standard Setup Package|Files Released]
+New HTML Help.CHI=
+help.CHI=
+
+[Package|Standard Setup Package|Missing Dependency Information]
+C:\WINDOWS\system32\ButtonEx.ocx=
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=
+C:\WINDOWS\system32\sapi.dll=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+
+[Package|Standard Setup Package|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\msflxgrd.ocx=
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\mscomct2.ocx=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|Standard Setup Package|Files Added]
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\Hospital.mdb=
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\Cancellations.htm=
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\TipOfDay.txt=
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\help.chm=
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\New Booking.htm=
+
+[Package|Standard Setup Package|Files Removed]
+
+[Package|Standard Setup Package|Files In Project]
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\eReception.exe=Yes
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\hhctrl.ocx=Yes
+C:\WINDOWS\system32\itss.dll=Yes
+C:\WINDOWS\system32\itircl.dll=Yes
+C:\WINDOWS\system32\hh.exe=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\sapi.dll=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\PICCLP32.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\msflxgrd.ocx=Yes
+C:\WINDOWS\system32\ButtonEx.ocx=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+D:\Help\New HTML Help.chm=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\Hospital.mdb=Yes
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\Cancellations.htm=Yes
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\TipOfDay.txt=Yes
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\help.chm=Yes
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\New Booking.htm=Yes
+
+[Package|Standard Setup Package|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package|Install Locations]
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\eReception.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\hhctrl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\itss.dll=$(WinSysPath)
+C:\WINDOWS\system32\itircl.dll=$(WinSysPath)
+C:\WINDOWS\system32\hh.exe=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\sapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=$(AppPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\ButtonEx.ocx=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+D:\Help\New HTML Help.chm=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\Hospital.mdb=$(AppPath)
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\Cancellations.htm=$(AppPath)
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\TipOfDay.txt=$(AppPath)
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\help.chm=$(AppPath)
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\New Booking.htm=$(AppPath)
+
+[Package|Standard Setup Package|Configure Shared Files]
+Applicable=Yes
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\eReception.exe=No
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=No
+D:\Help\New HTML Help.chm=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\Hospital.mdb=No
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\Cancellations.htm=No
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\TipOfDay.txt=No
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\help.chm=No
+E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital\New Booking.htm=No
+
+[Package|Standard Setup Package|Distribution]
+Type=single
+Size=
+Title=eChanneling
+
+[Package|Standard Setup Package|IconGroups]
+Group0=eChanneling
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package|eChanneling]
+Icon1=eReception.exe
+Title1=eChanneling
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package|Package]
+PackageFolder=E:\ehospitalSetup10PM
+ProjectFolder=E:\03 February 2008 eHospital Copy\Coperative Hospital\eHospital
+ServerSideCab=
+File1=E:\ehospitalSetup10PM\setup.exe
+File2=E:\ehospitalSetup10PM\Setup.Lst
+File3=E:\ehospitalSetup10PM\eReception.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package429pm|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Coperative Hospital\eHospital\NewPakege421pm
+
+[Package|Standard Setup Package429pm|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package429pm|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package429pm|Files Found]
+
+[Package|Standard Setup Package429pm|Files Released]
+New HTML Help.CHI=
+help.CHI=
+
+[Package|Standard Setup Package429pm|Missing Dependency Information]
+C:\WINDOWS\system32\ButtonEx.ocx=
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+
+[Package|Standard Setup Package429pm|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\mscomct2.ocx=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|Standard Setup Package429pm|Files Added]
+D:\Coperative Hospital\eHospital\Hospital.mdb=
+D:\Coperative Hospital\eHospital\help.chm=
+D:\Coperative Hospital\eHospital\Cancellations.htm=
+D:\Coperative Hospital\eHospital\New Booking.htm=
+D:\Coperative Hospital\eHospital\Refunds.htm=
+D:\Coperative Hospital\ks_wf003.ttf=
+D:\Coperative Hospital\TipOfDay.txt=
+
+[Package|Standard Setup Package429pm|Files Removed]
+
+[Package|Standard Setup Package429pm|Files In Project]
+D:\Coperative Hospital\eHospital\eReception.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\hhctrl.ocx=Yes
+C:\WINDOWS\system32\itss.dll=Yes
+C:\WINDOWS\system32\itircl.dll=Yes
+C:\WINDOWS\hh.exe=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\sapi.dll=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\PICCLP32.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\ButtonEx.ocx=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+D:\Coperative Hospital\eHospital\New HTML Help.chm=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Coperative Hospital\eHospital\Hospital.mdb=Yes
+D:\Coperative Hospital\eHospital\help.chm=Yes
+D:\Coperative Hospital\eHospital\Cancellations.htm=Yes
+D:\Coperative Hospital\eHospital\New Booking.htm=Yes
+D:\Coperative Hospital\eHospital\Refunds.htm=Yes
+D:\Coperative Hospital\ks_wf003.ttf=Yes
+D:\Coperative Hospital\TipOfDay.txt=Yes
+
+[Package|Standard Setup Package429pm|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package429pm|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package429pm|Install Locations]
+D:\Coperative Hospital\eHospital\eReception.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\hhctrl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\itss.dll=$(WinSysPath)
+C:\WINDOWS\system32\itircl.dll=$(WinSysPath)
+C:\WINDOWS\hh.exe=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\sapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=$(AppPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\ButtonEx.ocx=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+D:\Coperative Hospital\eHospital\New HTML Help.chm=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Coperative Hospital\eHospital\Hospital.mdb=$(AppPath)
+D:\Coperative Hospital\eHospital\help.chm=$(AppPath)
+D:\Coperative Hospital\eHospital\Cancellations.htm=$(AppPath)
+D:\Coperative Hospital\eHospital\New Booking.htm=$(AppPath)
+D:\Coperative Hospital\eHospital\Refunds.htm=$(AppPath)
+D:\Coperative Hospital\ks_wf003.ttf=$(Font)
+D:\Coperative Hospital\TipOfDay.txt=$(AppPath)
+
+[Package|Standard Setup Package429pm|Configure Shared Files]
+Applicable=Yes
+D:\Coperative Hospital\eHospital\eReception.exe=No
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=No
+D:\Coperative Hospital\eHospital\New HTML Help.chm=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Coperative Hospital\eHospital\Hospital.mdb=No
+D:\Coperative Hospital\eHospital\help.chm=No
+D:\Coperative Hospital\eHospital\Cancellations.htm=No
+D:\Coperative Hospital\eHospital\New Booking.htm=No
+D:\Coperative Hospital\eHospital\Refunds.htm=No
+D:\Coperative Hospital\TipOfDay.txt=No
+
+[Package|Standard Setup Package429pm|Distribution]
+Type=single
+Size=
+Title=eChanneling
+
+[Package|Standard Setup Package429pm|IconGroups]
+Group0=Lakmedipro
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package429pm|Lakmedipro]
+Icon1=eReception.exe
+Title1=eChanneling
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package433pm|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\NewPakege421pm
+
+[Package|Standard Setup Package433pm|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package433pm|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package433pm|Files Found]
+
+[Package|Standard Setup Package433pm|Files Released]
+New HTML Help.CHI=
+help.CHI=
+
+[Package|Standard Setup Package433pm|Missing Dependency Information]
+C:\WINDOWS\system32\ButtonEx.ocx=
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+
+[Package|Standard Setup Package433pm|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\mscomct2.ocx=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|Standard Setup Package433pm|Files Added]
+D:\Coperative Hospital\eHospital\Hospital.mdb=
+D:\Coperative Hospital\eHospital\help.chm=
+D:\Coperative Hospital\eHospital\Cancellations.htm=
+D:\Coperative Hospital\eHospital\New Booking.htm=
+D:\Coperative Hospital\eHospital\Refunds.htm=
+D:\Coperative Hospital\ks_wf003.ttf=
+D:\Coperative Hospital\TipOfDay.txt=
+
+[Package|Standard Setup Package433pm|Files Removed]
+
+[Package|Standard Setup Package433pm|Files In Project]
+D:\Coperative Hospital\eHospital\eReception.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\hhctrl.ocx=Yes
+C:\WINDOWS\system32\itss.dll=Yes
+C:\WINDOWS\system32\itircl.dll=Yes
+C:\WINDOWS\hh.exe=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\sapi.dll=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\PICCLP32.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\ButtonEx.ocx=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+D:\Coperative Hospital\eHospital\New HTML Help.chm=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Coperative Hospital\eHospital\Hospital.mdb=Yes
+D:\Coperative Hospital\eHospital\help.chm=Yes
+D:\Coperative Hospital\eHospital\Cancellations.htm=Yes
+D:\Coperative Hospital\eHospital\New Booking.htm=Yes
+D:\Coperative Hospital\eHospital\Refunds.htm=Yes
+D:\Coperative Hospital\ks_wf003.ttf=Yes
+D:\Coperative Hospital\TipOfDay.txt=Yes
+
+[Package|Standard Setup Package433pm|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package433pm|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package433pm|Install Locations]
+D:\Coperative Hospital\eHospital\eReception.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\hhctrl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\itss.dll=$(WinSysPath)
+C:\WINDOWS\system32\itircl.dll=$(WinSysPath)
+C:\WINDOWS\hh.exe=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\sapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=$(AppPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\ButtonEx.ocx=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+D:\Coperative Hospital\eHospital\New HTML Help.chm=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Coperative Hospital\eHospital\Hospital.mdb=$(AppPath)
+D:\Coperative Hospital\eHospital\help.chm=$(AppPath)
+D:\Coperative Hospital\eHospital\Cancellations.htm=$(AppPath)
+D:\Coperative Hospital\eHospital\New Booking.htm=$(AppPath)
+D:\Coperative Hospital\eHospital\Refunds.htm=$(AppPath)
+D:\Coperative Hospital\ks_wf003.ttf=$(Font)
+D:\Coperative Hospital\TipOfDay.txt=$(AppPath)
+
+[Package|Standard Setup Package433pm|Configure Shared Files]
+Applicable=Yes
+D:\Coperative Hospital\eHospital\eReception.exe=No
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=No
+D:\Coperative Hospital\eHospital\New HTML Help.chm=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Coperative Hospital\eHospital\Hospital.mdb=No
+D:\Coperative Hospital\eHospital\help.chm=No
+D:\Coperative Hospital\eHospital\Cancellations.htm=No
+D:\Coperative Hospital\eHospital\New Booking.htm=No
+D:\Coperative Hospital\eHospital\Refunds.htm=No
+D:\Coperative Hospital\TipOfDay.txt=No
+
+[Package|Standard Setup Package433pm|Distribution]
+Type=single
+Size=
+Title=eChanneling
+
+[Package|Standard Setup Package433pm|IconGroups]
+Group0=Lakmedipro
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package433pm|Lakmedipro]
+Icon1=eReception.exe
+Title1=eChanneling
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package437pm|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\NewPakege436pm
+
+[Package|Standard Setup Package437pm|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package437pm|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package437pm|Files Found]
+
+[Package|Standard Setup Package437pm|Files Released]
+New HTML Help.CHI=
+help.CHI=
+
+[Package|Standard Setup Package437pm|Missing Dependency Information]
+C:\WINDOWS\system32\ButtonEx.ocx=
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+
+[Package|Standard Setup Package437pm|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\mscomct2.ocx=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|Standard Setup Package437pm|Files Added]
+D:\Coperative Hospital\eHospital\Hospital.mdb=
+D:\Coperative Hospital\eHospital\help.chm=
+D:\Coperative Hospital\eHospital\Cancellations.htm=
+D:\Coperative Hospital\eHospital\New Booking.htm=
+D:\Coperative Hospital\eHospital\Refunds.htm=
+D:\Coperative Hospital\ks_wf003.ttf=
+D:\Coperative Hospital\TipOfDay.txt=
+
+[Package|Standard Setup Package437pm|Files Removed]
+
+[Package|Standard Setup Package437pm|Files In Project]
+D:\Coperative Hospital\eHospital\eReception.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\hhctrl.ocx=Yes
+C:\WINDOWS\system32\itss.dll=Yes
+C:\WINDOWS\system32\itircl.dll=Yes
+C:\WINDOWS\hh.exe=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\sapi.dll=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\PICCLP32.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\ButtonEx.ocx=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+D:\Coperative Hospital\eHospital\New HTML Help.chm=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Coperative Hospital\eHospital\Hospital.mdb=Yes
+D:\Coperative Hospital\eHospital\help.chm=Yes
+D:\Coperative Hospital\eHospital\Cancellations.htm=Yes
+D:\Coperative Hospital\eHospital\New Booking.htm=Yes
+D:\Coperative Hospital\eHospital\Refunds.htm=Yes
+D:\Coperative Hospital\ks_wf003.ttf=Yes
+D:\Coperative Hospital\TipOfDay.txt=Yes
+
+[Package|Standard Setup Package437pm|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package437pm|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package437pm|Install Locations]
+D:\Coperative Hospital\eHospital\eReception.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\hhctrl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\itss.dll=$(WinSysPath)
+C:\WINDOWS\system32\itircl.dll=$(WinSysPath)
+C:\WINDOWS\hh.exe=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\sapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=$(AppPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\ButtonEx.ocx=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+D:\Coperative Hospital\eHospital\New HTML Help.chm=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Coperative Hospital\eHospital\Hospital.mdb=$(AppPath)
+D:\Coperative Hospital\eHospital\help.chm=$(AppPath)
+D:\Coperative Hospital\eHospital\Cancellations.htm=$(AppPath)
+D:\Coperative Hospital\eHospital\New Booking.htm=$(AppPath)
+D:\Coperative Hospital\eHospital\Refunds.htm=$(AppPath)
+D:\Coperative Hospital\ks_wf003.ttf=$(Font)
+D:\Coperative Hospital\TipOfDay.txt=$(AppPath)
+
+[Package|Standard Setup Package437pm|Configure Shared Files]
+Applicable=Yes
+D:\Coperative Hospital\eHospital\eReception.exe=No
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=No
+D:\Coperative Hospital\eHospital\New HTML Help.chm=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Coperative Hospital\eHospital\Hospital.mdb=No
+D:\Coperative Hospital\eHospital\help.chm=No
+D:\Coperative Hospital\eHospital\Cancellations.htm=No
+D:\Coperative Hospital\eHospital\New Booking.htm=No
+D:\Coperative Hospital\eHospital\Refunds.htm=No
+D:\Coperative Hospital\TipOfDay.txt=No
+
+[Package|Standard Setup Package437pm|Distribution]
+Type=single
+Size=1.44 MB
+Title=eChanneling
+
+[Package|Standard Setup Package437pm|IconGroups]
+Group0=Lakmedipro
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package437pm|Lakmedipro]
+Icon1=eReception.exe
+Title1=eChanneling
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Standard Setup Package 1111|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Ruhuna eChanneling Setup
+
+[Package|Standard Setup Package 1111|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1111|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1111|Files Found]
+Cancellations.htm=D:\eHospital\Cancellations.htm
+Hospital.mdb=D:\eHospital\Hospital.mdb
+
+[Package|Standard Setup Package 1111|Files Released]
+New HTML Help.CHI=
+help.CHI=
+ks_wf003.ttf=
+refunds.htm=
+new booking.htm=
+tipofday.txt=
+help.chm=
+
+[Package|Standard Setup Package 1111|Missing Dependency Information]
+C:\WINDOWS\system32\ButtonEx.ocx=
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=
+C:\WINDOWS\system32\sapi.dll=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=
+D:\Program Files\Microsoft Office\Office10\EXCEL.EXE=
+C:\Program Files\Common Files\Microsoft Shared\Speech\sapi.dll=
+
+[Package|Standard Setup Package 1111|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\msflxgrd.ocx=
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\mscomct2.ocx=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\scrrun.dll=
+C:\WINDOWS\system32\richtx32.ocx=
+C:\WINDOWS\system32\picclp32.ocx=
+
+[Package|Standard Setup Package 1111|Files Added]
+d:\ehospital\cancellations.htm=
+d:\ehospital\hospital.mdb=
+
+[Package|Standard Setup Package 1111|Files Removed]
+
+[Package|Standard Setup Package 1111|Files In Project]
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\hhctrl.ocx=Yes
+C:\WINDOWS\system32\itss.dll=Yes
+C:\WINDOWS\system32\itircl.dll=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\PICCLP32.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\msflxgrd.ocx=Yes
+C:\WINDOWS\system32\ButtonEx.ocx=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\hh.exe=Yes
+D:\eHospital\Cancellations.htm=Yes
+D:\eHospital\Hospital.mdb=Yes
+C:\Program Files\Common Files\Microsoft Shared\Speech\sapi.dll=Yes
+D:\Program Files\Microsoft Office\Office10\EXCEL.EXE=Yes
+D:\Ruhuna eChanneling\eReception.exe=Yes
+D:\Ruhuna eChanneling\New HTML Help.chm=Yes
+
+[Package|Standard Setup Package 1111|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1111|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1111|Install Locations]
+E:\Ruhuna at 4.47PM\Coperative Hospital\eHospital\eReception.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\hhctrl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\itss.dll=$(WinSysPath)
+C:\WINDOWS\system32\itircl.dll=$(WinSysPath)
+C:\WINDOWS\system32\hh.exe=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\sapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=$(AppPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\ButtonEx.ocx=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+D:\Help\New HTML Help.chm=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\Ruhuna at 4.47PM\Coperative Hospital\eHospital\help.chm=$(AppPath)
+E:\Ruhuna at 4.47PM\Coperative Hospital\TipOfDay.txt=$(AppPath)
+E:\Ruhuna at 4.47PM\Coperative Hospital\ks_wf003.ttf=$(Font)
+E:\Ruhuna at 4.47PM\Coperative Hospital\eHospital\Cancellations.htm=$(AppPath)
+E:\Ruhuna at 4.47PM\Coperative Hospital\eHospital\New Booking.htm=$(AppPath)
+E:\Ruhuna at 4.47PM\Coperative Hospital\eHospital\Refunds.htm=$(AppPath)
+E:\Ruhuna at 4.47PM\Coperative Hospital\eHospital\Hospital.mdb=$(AppPath)
+D:\eHospital\eReception.exe=$(AppPath)
+C:\WINDOWS\hh.exe=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=$(AppPath)
+D:\eHospital\New HTML Help.chm=$(AppPath)
+D:\eHospital\help.chm=$(AppPath)
+D:\eHospital\TipOfDay.txt=$(AppPath)
+D:\eHospital\Cancellations.htm=$(AppPath)
+D:\eHospital\New Booking.htm=$(AppPath)
+D:\eHospital\Refunds.htm=$(AppPath)
+D:\eHospital\Hospital.mdb=$(AppPath)
+C:\Program Files\Common Files\Microsoft Shared\Speech\sapi.dll=$(WinSysPath)
+D:\Program Files\Microsoft Office\Office10\EXCEL.EXE=$(AppPath)
+D:\Ruhuna eChanneling\eReception.exe=$(AppPath)
+D:\Ruhuna eChanneling\New HTML Help.chm=$(AppPath)
+
+[Package|Standard Setup Package 1111|Configure Shared Files]
+Applicable=Yes
+E:\Ruhuna at 4.47PM\Coperative Hospital\eHospital\eReception.exe=No
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=No
+D:\Help\New HTML Help.chm=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+E:\Ruhuna at 4.47PM\Coperative Hospital\eHospital\help.chm=No
+E:\Ruhuna at 4.47PM\Coperative Hospital\TipOfDay.txt=No
+E:\Ruhuna at 4.47PM\Coperative Hospital\eHospital\Cancellations.htm=No
+E:\Ruhuna at 4.47PM\Coperative Hospital\eHospital\New Booking.htm=No
+E:\Ruhuna at 4.47PM\Coperative Hospital\eHospital\Refunds.htm=No
+E:\Ruhuna at 4.47PM\Coperative Hospital\eHospital\Hospital.mdb=No
+D:\eHospital\eReception.exe=No
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=No
+D:\eHospital\New HTML Help.chm=No
+D:\eHospital\help.chm=No
+D:\eHospital\TipOfDay.txt=No
+D:\eHospital\Cancellations.htm=No
+D:\eHospital\New Booking.htm=No
+D:\eHospital\Refunds.htm=No
+D:\eHospital\Hospital.mdb=No
+D:\Program Files\Microsoft Office\Office10\EXCEL.EXE=No
+D:\Ruhuna eChanneling\eReception.exe=No
+D:\Ruhuna eChanneling\New HTML Help.chm=No
+
+[Package|Standard Setup Package 1111|Distribution]
+Type=single
+Size=
+Title=eChanneling
+
+[Package|Standard Setup Package 1111|IconGroups]
+Group0=Lakmedipro
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1111|Lakmedipro]
+Icon1=eReception.exe
+Title1=eChanneling
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1111|Package]
+PackageFolder=D:\Ruhuna eChanneling Setup
+ProjectFolder=D:\Ruhuna eChanneling
+ServerSideCab=
+File1=D:\Ruhuna eChanneling Setup\setup.exe
+File2=D:\Ruhuna eChanneling Setup\Setup.Lst
+File3=D:\Ruhuna eChanneling Setup\eReception.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
